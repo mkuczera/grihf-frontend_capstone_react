@@ -1,0 +1,36 @@
+@import url("../global.css");
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-grid {
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 380px;
+    width: 100%;
+    background-color: var(--background);
+    border-radius: 6px;
+}
+
+.signup-text {
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form {
+    margin-top: 20px;
+}
+
+.btn-group button {
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+}
